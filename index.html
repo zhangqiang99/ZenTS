@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>ZenTS - Node.js &amp; TypeScript MVC-Framework for building rich web applications</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    <link rel="apple-touch-icon" size="57x57" href="/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" size="60x60" href="/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" size="72x72" href="/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" size="76x76" href="/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" size="114x114" href="/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" size="120x120" href="/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" size="144x144" href="/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" size="152x152" href="/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" size="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" size="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" size="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" size="96x96" href="/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" size="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&amp;family=Rubik:wght@700&amp;Quicksand:wght@300;700&amp;Source+Code+Pro:wght@400;700&amp;display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <script>                
+        window.addEventListener('load', function () {
+          var inputSelector = '.search-box > input';
+          var $el = document.querySelector(inputSelector);
+          
+          $el.disabled = true;
+          $el.placeholder = 'Loading...';
+
+          var script = document.createElement("script");
+          script.addEventListener("load", function() {
+            docsearch({
+              apiKey: '1c03de24a87faf1bfd8b7e760c63b3ab',
+              indexName: 'zents',
+              inputSelector: inputSelector,
+            });
+            $el.disabled = false;
+            $el.placeholder = 'Search...';
+          });
+
+          script.src = "https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js";
+
+          document.body.appendChild(script);            
+        });
+      </script>
+    <meta name="description" content="ZenTS is a Node.js & TypeScript MVC-Framework for building rich web applications, released as free and open-source software under the MIT License. It is designed for building web applications with modern tools and design patterns.">
+    <meta name="keywords" content="ZenTS MVC framework TypeScript guide tutorial documentation MIT open source">
+    <meta name="theme-color" content="#512DA8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/assets/css/0.styles.1ff9e24c.css" as="style"><link rel="preload" href="/assets/js/app.0f874116.js" as="script"><link rel="preload" href="/assets/js/5.60d54524.js" as="script"><link rel="preload" href="/assets/js/6.53de5e0c.js" as="script"><link rel="preload" href="/assets/js/7.3c786c73.js" as="script"><link rel="preload" href="/assets/js/14.49d311f2.js" as="script"><link rel="preload" href="/assets/js/8.92f447d2.js" as="script"><link rel="prefetch" href="/assets/js/10.e6175381.js"><link rel="prefetch" href="/assets/js/11.b89d07bb.js"><link rel="prefetch" href="/assets/js/12.f1869a76.js"><link rel="prefetch" href="/assets/js/13.26305f8b.js"><link rel="prefetch" href="/assets/js/15.42758e36.js"><link rel="prefetch" href="/assets/js/16.a680d30b.js"><link rel="prefetch" href="/assets/js/17.fc88c18b.js"><link rel="prefetch" href="/assets/js/18.c009c08b.js"><link rel="prefetch" href="/assets/js/19.e44e68e1.js"><link rel="prefetch" href="/assets/js/2.76c813c5.js"><link rel="prefetch" href="/assets/js/20.a14f83a1.js"><link rel="prefetch" href="/assets/js/21.309c8584.js"><link rel="prefetch" href="/assets/js/22.4bb1ce2d.js"><link rel="prefetch" href="/assets/js/23.7bb3236f.js"><link rel="prefetch" href="/assets/js/24.9896629b.js"><link rel="prefetch" href="/assets/js/25.226c1b2a.js"><link rel="prefetch" href="/assets/js/26.c67d5237.js"><link rel="prefetch" href="/assets/js/27.e5797b2b.js"><link rel="prefetch" href="/assets/js/28.38369c54.js"><link rel="prefetch" href="/assets/js/29.1374246d.js"><link rel="prefetch" href="/assets/js/3.9792adb6.js"><link rel="prefetch" href="/assets/js/30.be21812e.js"><link rel="prefetch" href="/assets/js/31.19a8291b.js"><link rel="prefetch" href="/assets/js/32.70b347c5.js"><link rel="prefetch" href="/assets/js/33.81e49477.js"><link rel="prefetch" href="/assets/js/34.f13600a5.js"><link rel="prefetch" href="/assets/js/35.491a9c45.js"><link rel="prefetch" href="/assets/js/4.1b3227c4.js"><link rel="prefetch" href="/assets/js/9.96e777e5.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.1ff9e24c.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="landing-page font-nunito" data-v-fd03c5f6><div class="custom-block danger beta-warning" data-v-fd03c5f6><div class="container mx-auto py-4" data-v-fd03c5f6>
+      ZenTS is still <strong data-v-fd03c5f6><em data-v-fd03c5f6>under heavy development</em></strong> and
+      <strong data-v-fd03c5f6><em data-v-fd03c5f6>not</em></strong> ready for production use yet (breaking changes can be
+      introduces at any time). Please report any issues on
+      <a href="https://github.com/sahachide/ZenTS/issues" target="_blank" data-v-fd03c5f6>GitHub</a>.
+    </div></div> <section class="hero-container" data-v-fd03c5f6><div class="container mx-auto pt-12" data-v-fd03c5f6><header class="grid grid-cols-4" data-v-0f770318 data-v-fd03c5f6><div class="col-span-1" data-v-0f770318><img src="/zents_logo_white.png" class="logo" data-v-0f770318></div> <div class="col-span-3 pt-3" data-v-0f770318><nav class="container flex justify-end" data-v-0f770318><ul class="flex space-x-6 text-base nav-item uppercase font-nunito-light tracking-wider" data-v-0f770318><li data-v-0f770318><a href="/guide/gettingstarted/installation" class="hover hover-1" data-v-0f770318>Getting started</a></li> <li data-v-0f770318><a href="/guide/" data-v-0f770318>Documentation</a></li> <li data-v-0f770318><a href="/guide/" data-v-0f770318>Guides</a></li> <li data-v-0f770318><a href="/api/" data-v-0f770318>API-Reference</a></li> <li data-v-0f770318><a href="https://github.com/sahachide/ZenTS" target="_blank" data-v-0f770318>GitHub</a></li> <li class="dark-light-switcher-container" data-v-0f770318><img src="/dark_light_switcher.svg" class="dark-light-switcher" data-v-0f770318></li></ul></nav></div></header> <div class="hero grid grid-cols-12 gap-4 px-8 py-16 rounded-lg mt-24" data-v-a1b2a69e data-v-fd03c5f6><div class="col-span-4 flex items-center" data-v-a1b2a69e><div class="mx-6" data-v-a1b2a69e><h1 class="font-nunito-bold text-xl mb-1" data-v-a1b2a69e>ZenTS</h1> <p class="sub-text tracking-wider font-rubik text-3xl leading-tight" data-v-a1b2a69e>
+        Node.js &amp; TypeScript MVC-Framework for building rich web applications
+      </p> <div class="text-center" data-v-a1b2a69e><a href="/guide/" class="mt-8 button" data-v-a1b2a69e>Documentation</a></div></div></div> <div class="col-span-8 flex content-center" data-v-a1b2a69e><img src="/landingpage/hero.svg" data-v-a1b2a69e></div></div></div> <div class="flex justify-center mt-12" data-v-fd03c5f6><a href="#getting-started" class="scroll-down" data-v-fd03c5f6><span data-v-fd03c5f6></span></a></div></section> <div class="wave" data-v-fd03c5f6><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" data-v-fd03c5f6><path fill="#7e57c2" fill-opacity="1" d="M0,160L80,149.3C160,139,320,117,480,133.3C640,149,800,203,960,208C1120,213,1280,171,1360,149.3L1440,128L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z" data-v-fd03c5f6></path></svg></div> <div id="getting-started" class="container mx-auto -mt-12" data-v-fd03c5f6><section class="grid grid-cols-1 lg:grid-cols-2 gap-24 mb-56" data-v-fd03c5f6><div data-v-fd03c5f6><div data-v-fd03c5f6><h3 class="uppercase font-nunito-light mb-10">Get ready in 30 seconds</h3> <h6 class="content-title font-quicksand-bold text-6xl leading-normal mb-20">
+    Quick start
+    <span class="font-quicksand-light text-4xl sub-text">with ZenTS CLI</span></h6> <p class="lg:w-3/4 w-full">
+          Create your first <strong data-v-fd03c5f6>ZenTS</strong> web application in a few seconds with
+          <strong data-v-fd03c5f6>ZenTS CLI</strong>. The CLI comes with all preinstalled dependencies for your
+          application, with a ready to use <strong data-v-fd03c5f6>TypeScript</strong> compiler and a
+          <strong data-v-fd03c5f6>hot-realoading enabled development server</strong> right at your fingertips.
+          Check out the Quick Start guide and learn how to develop <em data-v-fd03c5f6>fast</em>,
+          <em data-v-fd03c5f6>maintainable</em> and simply awesome web applications with <strong data-v-fd03c5f6>ZenTS</strong>.
+        </p></div> <a href="/guide/gettingstarted/installation" class="button mt-8" data-v-fd03c5f6>
+          Installation &amp; Setup
+        </a></div> <div class="flex content-center" data-v-fd03c5f6><div class="window" data-v-0d7befed data-v-fd03c5f6><div class="icons" data-v-0d7befed><span data-v-0d7befed></span></div> <div class="title font-nunito-bold" data-v-0d7befed>Quick Start</div> <div class="text" data-v-0d7befed><div data-v-0d7befed><span data-v-0d7befed>npm</span> i zents-cli -g<br data-v-0d7befed> <span data-v-0d7befed>zen</span> create myproject<br data-v-0d7befed> <span data-v-0d7befed>cd</span> myproject &amp;&amp; <span data-v-0d7befed>zen</span> dev
+    </div></div></div></div></section> <section class="grid grid-cols-1 lg:grid-cols-2 gap-24 mb-56" data-v-fd03c5f6><div class="lg:flex hidden content-center" data-v-fd03c5f6><img src="/landingpage/typescript.svg" data-v-fd03c5f6></div> <div data-v-fd03c5f6><div data-v-fd03c5f6><h3 class="uppercase font-nunito-light mb-10">Typed JavaScript at any scale</h3> <h6 class="content-title font-quicksand-bold text-6xl leading-normal mb-20">
+    TypeScript
+    <span class="font-quicksand-light text-4xl sub-text">at its best</span></h6> <p class="lg:w-3/4 w-full"><strong data-v-fd03c5f6>TypeScript</strong> extends &quot;vanilla&quot; JavaScript with types and allows
+          you to use the <em data-v-fd03c5f6>latest ECMAScript features</em>. Writing your application with
+          TypeScript means that you can define the shape of an object, which allows TypeScript to
+          validate that your code is working correctly. With <strong data-v-fd03c5f6>ZenTS</strong>, you can
+          levarage the straingth of TypeScript and write <em data-v-fd03c5f6>more elegant source code</em>. And
+          the best news is, if you've used JavaScript before, TypeScript will be
+          <em data-v-fd03c5f6>easy to learn</em>. Check out the official TypeScript website for more information.
+        </p></div> <a href="https://www.typescriptlang.org/" target="_blank" class="button mt-8" data-v-fd03c5f6>
+          TypeScript Website
+        </a></div></section> <section class="grid grid-cols-1 lg:grid-cols-2 gap-24 mb-56" data-v-fd03c5f6><div data-v-fd03c5f6><div data-v-fd03c5f6><h3 class="uppercase font-nunito-light mb-10">Effective Web Application Development</h3> <h6 class="content-title font-quicksand-bold text-6xl leading-normal mb-20">
+    MVC Architecture
+    <span class="font-quicksand-light text-4xl sub-text">a great architecture to write maintainable code </span></h6> <p class="lg:w-3/4 w-full"><strong data-v-fd03c5f6>ZenTS</strong> is a framework which follows the
+          <em data-v-fd03c5f6>model-view-controller (MVC) pattern</em>. It comes with <em data-v-fd03c5f6>all the tools</em> you
+          need to write code, that can be <em data-v-fd03c5f6>maintained</em> by many developers at the same time.
+          Following the MVC pattern, you've a solid ground to build <em data-v-fd03c5f6>awesome projects</em> your
+          users will love. <strong data-v-fd03c5f6>ZenTS</strong> has an easy to learn controller mechanism with a
+          battle tested and lightning fast router and comes with a rock solid ORM out of the box.
+          To present your web application appropriatly, <strong data-v-fd03c5f6>ZenTS</strong> ships with a rich
+          and powerful template engine.
+        </p></div> <a href="/guide/" class="button mt-8" data-v-fd03c5f6>
+          ZenTS Documentation
+        </a></div> <div class="lg:flex hidden content-center" data-v-fd03c5f6><img src="/landingpage/mvc.svg" data-v-fd03c5f6></div></section> <section class="grid grid-cols-1 lg:grid-cols-2 gap-24 mb-56" data-v-fd03c5f6><div class="lg:flex hidden content-center" data-v-fd03c5f6><img src="/landingpage/progressive.svg" data-v-fd03c5f6></div> <div data-v-fd03c5f6><div data-v-fd03c5f6><h3 class="uppercase font-nunito-light mb-10">Progressive framework and a rich ecosystem</h3> <h6 class="content-title font-quicksand-bold text-6xl leading-normal mb-20">
+    ZenTS, Node.js and TypeScript 
+    <span class="font-quicksand-light text-4xl sub-text">a perfect ménage à trois</span></h6> <p class="lg:w-3/4 w-full">
+          A <strong data-v-fd03c5f6>ZenTS</strong> web application runs inside the
+          <strong data-v-fd03c5f6>Node.js</strong> JavaScript runtime. With <strong data-v-fd03c5f6>ZenTS</strong> and TypeScript,
+          you can take advantage of the <em data-v-fd03c5f6>latest JavaScript features</em>, it also brings new
+          design patterns and solutions to the Node.js. <strong data-v-fd03c5f6>Node.js</strong> has a huge
+          ecosystem, that is suitable to build all kind of
+          <em data-v-fd03c5f6>enterpriese-grade applications</em>. With <strong data-v-fd03c5f6>ZenTS</strong> and its easy to
+          learn and use API, you can make use of all these advantages and build web applications
+          <em data-v-fd03c5f6>quickly</em>.
+        </p></div></div></section> <section class="grid grid-cols-1 lg:grid-cols-2 gap-24 mb-56" data-v-fd03c5f6><div data-v-fd03c5f6><div data-v-fd03c5f6><h3 class="uppercase font-nunito-light mb-10">Made with 💜 from developers for developers</h3> <h6 class="content-title font-quicksand-bold text-6xl leading-normal mb-20">
+    Open Source
+    <span class="font-quicksand-light text-4xl sub-text">now and until the end of the universe</span></h6> <p class="lg:w-3/4 w-full"><strong data-v-fd03c5f6>ZenTS</strong> is released under the <strong data-v-fd03c5f6>MIT licence</strong> and the source
+          code can be found on Github. Feel free to contribute if you want to help to improve
+          <strong data-v-fd03c5f6>ZenTS</strong> and make it an even better framework. <strong data-v-fd03c5f6>ZenTS</strong> is
+          created by Sascha Habbes (sahachide) and contributors.<br data-v-fd03c5f6><br data-v-fd03c5f6> <strong data-v-fd03c5f6><em data-v-fd03c5f6>Thank you for using ZenTS and keep building awesome web applications.</em></strong></p></div> <a href="#" class="button mt-8" data-v-fd03c5f6>
+          View source on Github
+        </a></div> <div class="lg:flex hidden content-center" data-v-fd03c5f6><img src="/landingpage/open_source.svg" data-v-fd03c5f6></div></section></div> <footer class="flex justify-center items-center" data-v-fd03c5f6>
+    ZenTS is licensed under MIT License. Landing page hero illustration designed by
+    <a href="https://www.freepik.com/" target="_blank" data-v-fd03c5f6>upklyak / Freepik</a>. Dark/Light Theme
+    Switcher Icon by made by
+    <a href="https://www.flaticon.com/authors/freepik" data-v-fd03c5f6>Freepik</a> from
+    <a href="https://www.flaticon.com/" data-v-fd03c5f6>www.flaticon.com</a>. Illustrations are created by
+    <a href="https://undraw.co/" target="_blank" data-v-fd03c5f6>Katerina Limpitsouni</a>.
+  </footer></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/assets/js/app.0f874116.js" defer></script><script src="/assets/js/5.60d54524.js" defer></script><script src="/assets/js/6.53de5e0c.js" defer></script><script src="/assets/js/7.3c786c73.js" defer></script><script src="/assets/js/14.49d311f2.js" defer></script><script src="/assets/js/8.92f447d2.js" defer></script>
+  </body>
+</html>
